@@ -1,0 +1,247 @@
+/* TAMANHO DA FONTE NO SMARTPHONE */
+@media only screen and (min-width: 360px) {
+
+.TAM p {font-size: 1.9rem;}
+.material-icons {font-size: 4rem;padding-top: 15%;}
+.btncarde {width: 60px; height:60px ;}
+.Social i {width: 50px;height:50px;}
+
+/*tamanho do video*/
+.video-disgrama {
+    width: 100%;
+    height: 270px;
+    object-position: center;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+}
+
+
+/* TAMANHO DA FONTE NO TABLET */
+@media only screen and (min-width: 601px) {
+
+.TAM p {font-size: 1.9rem;}
+.material-icons i {font-size: 4rem;padding-top: 15%;}
+.btncarde {width: 50px; height:50px ;}
+.Social i {width: 50px;height:50px;}
+
+/*tamanho do video*/
+.video-disgrama {
+    width: 100%;
+    height: 346px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+}
+
+/* TAMANHO DA FONTE NO MONITOR */
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 96%;
+  }
+
+.TAM p {font-size: 1.1rem;}
+.material-icons {font-size: 3rem; padding-top: 3%}
+.btncarde {width: 47px; height:47px;}
+
+/*tamanho do video*/
+.video-disgrama {
+
+    width: 100%;
+    height: 348px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+  
+}
+
+/* Banner e MENU */
+.MenuPoha i {padding-top: 35px;float:right;}
+.Social {padding-top: 45px; padding-bottom: 2px ;float:right;}
+.Social a {margin-right: 7px;}
+.altura {height: 100%}
+.logo_text{font-size: 0; margin: 0;}
+/* imagem da logo */
+.logo_img {width: 122px; margin-top: 1.5%;float: left; }
+.logo_img2 {width: 128px; margin-top: 1.5%;padding: 3px}
+.logo_imgfooter {width: 100px;}
+.side-nav {background-color:rgba(0,0,0,0.5);}
+.side-nav li>a {color:#fff;}
+.side-nav li>a {text-align: center;font-size: 3.5rem; margin-top: 40px;border-bottom:solid;border-color: rgba(225,225,225,0.5);}
+.side-nav {padding-top: 6%;}
+
+
+
+.size {font-size: 30;}
+
+nav ul a {
+	
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+    outline:none;
+}
+
+/* FIM_Banner_e_MENU */
+
+/* SOCIAL ICONS*/
+
+.social-icons {margin-bottom:18px;}
+.social-icons a {font-size: 1.1em; color: rgba(255,255,255,0.7); margin-right: 18px;}
+.social-icons {margin-bottom:2%;}
+.social-icons a:hover {color:rgb(255,255,255);}
+.copyright {margin-top: 2%; color:rgba(255,255,255,0.5);}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 180px;
+    line-height: 64px;
+    float: right;
+}
+.facebook:hover {color: #3b5998;}
+.instagram:hover {color: #651fff ;}
+.youtube:hover {color: #b71c1c;}
+/* Fim_SOCIAL ICONS*/
+
+/* Slider*/
+.slider {
+    height: 100%;
+    width: 100%;
+    margin-top: -1%;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+/*cor do indicador bolinha do Slider ficou laranja*/
+.slider .indicators .indicator-item.active {
+    background-color: #e65100;
+}
+
+.slider .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 12px;
+    background-color: #bdbdbd ;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    border-radius: 50%;
+}
+/*Fim indicador bolinha do Slider ficou laranja*/
+
+/*testando Cardes Section*/
+.cartao {font-size:medium;}
+.iconebaixo{ margin-top:10px;margin-right: 68%;}
+
+/* CONTATO */
+.contato {background-image: url('../img/textura1.png');}
+.contato h4 {font-size: 1.2rem; text-transform: uppercase;
+font-weight: 900;}
+.contato .mapa {min-height: 560px;}
+.contato .mapa iframe {width: 100%; min-height: 560px; border:none;}
+.contato .informacoes {background-image: url('../img/textura2.png');
+min-height: 560px; padding: 30px;} 
+.contato .formulario {min-height: 560px; padding: 30px}
+
+/*TAMANHO CARD SECTIONS*/
+
+.bloco p {line-height: 1.8rem; text-align: auto;}
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 100px;
+    top: 0;
+    bottom: 0;
+    height:relative;
+    width: 100%;
+}
+
+.card .card-content  {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/*testando opacidade*/
+
+.transparente {
+	background-color: #f57c00;background: rgba(0, 0, 0, 0.7);
+	border-radius: 5px; 
+}
+
+/* FORMULÁRIO*/
+.contato .formulario {
+    min-height: 560px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/*MUDANDO A COR DA LINHA DE INPUT*/
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #f57c00;
+  -webkit-box-shadow: 0 1px 0 0 #f57c00;
+          box-shadow: 0 1px 0 0 #f57c00;
+}
+
+/*MUDANDO A COR DA TEXTO DE INPUT*/
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #ef6c00;
+}
+/*ALTURA DO MODAL*/
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+/*RECURO NO TEXTO DA MISSÃO*/
+.recuo { text-indent:2em;text-align: justify;}
+/*MARGEM PARA OS CURSOS*/
+.Div-Cursos-Margem {margin-top: 3%;}
+
+
+
+
